@@ -5,7 +5,6 @@ import RatingStars from "./components/RatingStars";
 import ShoppingCart from "./components/ShoppingCart";
 import { products } from "./data/products";
 
-
 function App() {
   const [cartsVisibilty, setCartVisible] = useState(false);
   const [productsInCart, setProducts] = useState(
